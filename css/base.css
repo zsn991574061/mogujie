@@ -1,0 +1,80 @@
+html,body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,button,p,img,fieldset,legend{
+    margin: 0;
+    padding: 0;
+}
+fieldset,input,img,button{
+    border:none;
+    outline-style:none;
+    border:0;
+}
+ul,ol{
+    list-style:none;
+}
+input,select,textarea{
+    font-size:12px;
+    font-family:"simsun";
+}
+select,input,img{
+    vertical-align:middle;
+}
+textarea{
+    resize:none;
+}
+table{
+    border-collapse:collapse;
+}
+body{
+    background: #F7F7F7;
+    font:12px/150% Arial,"\5b8b\4f53"
+}
+.clearfix:before,.clearfix:after{
+    content:"";
+    display:table;
+}
+.clearfix:after{
+    clear:both;
+}
+.clearfix{
+    *zoom:1;
+}
+a{
+    color:#666;
+    text-decoration: none;
+}
+a:hover{
+    color:#666;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight:normal;
+    font-size:100%;
+
+}
+s,i,em{
+    font-style:normal;
+    text-decoration: none;
+}
+.cor-red{
+    color:#c81623 !important;
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.al{
+    text-align: left;
+}
+.ar{
+    text-align: right;
+}
+.ac{
+    text-align: center;
+}
+.hide{
+    display:none;
+}
